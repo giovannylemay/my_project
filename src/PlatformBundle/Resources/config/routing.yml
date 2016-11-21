@@ -1,3 +1,7 @@
 platform_homepage:
     path:     /
     defaults: { _controller: PlatformBundle:Default:index }
+
+hello_the_world:
+    path: /hello-world
+    defaults: {_controller: PlatformBundle:Advert:index}
