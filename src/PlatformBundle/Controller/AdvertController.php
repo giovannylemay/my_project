@@ -9,7 +9,7 @@ class AdvertController extends Controller
 {
     public function indexAction()
     {
-        $content = $this->get('templating')->render(PlatformBundle:Advert:index.html.twig);
+        $content = $this->get('templating')->render('PlatformBundle:Advert:index.html.twig', array('nom' => 'Giovanny'));
         return new Response($content);
     }
 }
