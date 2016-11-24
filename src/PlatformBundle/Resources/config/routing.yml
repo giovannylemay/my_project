@@ -28,6 +28,6 @@ platform_edit:
 platform_delete:
     path:      /delete/{id}
     defaults:
-        _controller: PlatformBundle:Advert:edit
+        _controller: PlatformBundle:Advert:delete
     requirements:
         page: \d+
